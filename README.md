@@ -5,6 +5,6 @@ The code was developed for a project submitted to the Royal College of Pathologi
 
 The code has been licenced under a [GNU General Public License v3](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
-A paper describing the development and validation of this computer vision algorithm will be inserted here once published. Please cite the paper if you use this code.
+A paper describing the development and validation of this computer vision algorithm will be referenced here once published. Please cite the paper if you use this code.
 
 For questions or comments please contact nick.flynn@nhs.net
