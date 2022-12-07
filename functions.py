@@ -522,7 +522,8 @@ def bs_multicrop(input_folder, output_folder, image_type, x_min,x_max,y_min,y_ma
             cv2.imwrite(filename, img[1])
 
 def draw_bounding_box(img,contours,hierarchy, center, radius, spot_metrics, multispot_prob_list, select_punched, 
-                      diam_range = (8,14), prob_multi_limit = 0.50, prob_multi_borderline = 0.25):
+                      diam_range = (8,14), prob_multi_limit = 0.50, prob_multi_borderline = 0.25, 
+                    green = (0,128,0), amber = (179,98,0), red = (255,0,0)):
     '''
     Draw colour coded bounding box around blood spots on the 'img'
     '''
@@ -577,23 +578,26 @@ def draw_bounding_box(img,contours,hierarchy, center, radius, spot_metrics, mult
             else:
                 multispotted='0' 
             
+            
+
+            
             # define colour for bounding boxes
-            box_colour = (0,255,0)
-            diam_colour = (0,255,0)
-            multiprob_colour = (0,255,0)
+            box_colour = green
+            diam_colour = green
+            multiprob_colour = green
             
             if small or large:
-                diam_colour = (255,0,0)
+                diam_colour = red
 
             if multispotted == '+':
-                multiprob_colour = (255,0,0)
+                multiprob_colour = red
                 
             if multispotted == 'b':
-                multiprob_colour = (255,191,0) 
-                box_colour = (255,191,0)
+                multiprob_colour = amber
+                box_colour = amber
                 
             if small or large or (multispotted == '+'):
-                box_colour = (255,0,0)
+                box_colour = red
             
             # draw bounding box
             x,y,w,h = cv2.boundingRect(contours[i])
