@@ -1,10 +1,21 @@
-# Blood spot sample quality computer vision
+# Blood spot quality computer vision
 Computer vision code for assessing blood spot quality, developed by [Nick Flynn](https://www.linkedin.com/in/flynnn) of Cambridge University Hospitals NHS Foundation Trust.
 
 The code has been licenced under a [GNU General Public License v3](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
 For a demonstration please see the ```nbscv_demo.ipynb``` Jupyter Notebook.
 
-A paper describing the development and validation of this computer vision algorithm will be referenced here once published. Please cite the paper if you use this code.
+Please cite the following paper if you use this code:
+
+Nick Flynn, Stuart J. Moat, Sarah L. Hogg,
+A computer vision approach to the assessment of dried blood spot size and quality in newborn screening,
+Clinica Chimica Acta,
+Volume 547,
+2023,
+117418,
+ISSN 0009-8981,
+https://doi.org/10.1016/j.cca.2023.117418.
+
+The paper is available to download for free until 27th July 2023 by following [this link](https://authors.elsevier.com/a/1hCzg2G2M6m5U)
 
 For questions or comments please contact nick.flynn@nhs.net
