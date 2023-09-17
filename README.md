@@ -16,6 +16,4 @@ Volume 547,
 ISSN 0009-8981,
 https://doi.org/10.1016/j.cca.2023.117418.
 
-The paper is available to download for free until 27th July 2023 by following [this link](https://authors.elsevier.com/a/1hCzg2G2M6m5U)
-
 For questions or comments please contact nick.flynn@nhs.net
