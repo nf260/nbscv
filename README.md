@@ -17,3 +17,6 @@ ISSN 0009-8981,
 https://doi.org/10.1016/j.cca.2023.117418.
 
 For questions or comments please contact nick.flynn@nhs.net
+
+# September 2023 update
+This work was done using a Panthera puncher that saves images with size 752 x 480 pixels. Other Panthera instruments may use a camera with a higher resolution; the larger images produced by other Panthera instruments may not be properly processed by this algorithm.
