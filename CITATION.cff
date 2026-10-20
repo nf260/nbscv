@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated publication."
+type: software
+
+title: "NBSCV: Computer vision for dried blood spot quality assessment"
+
+authors:
+  - family-names: Flynn
+    given-names: Nick
+
+repository-code: "https://github.com/nf260/nbscv"
+
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Flynn
+      given-names: Nick
+    - family-names: Moat
+      given-names: Stuart J.
+    - family-names: Hogg
+      given-names: Sarah L.
+  title: "A computer vision approach to the assessment of dried blood spot size and quality in newborn screening"
+  journal: "Clinica Chimica Acta"
+  volume: 547
+  year: 2023
+  doi: "10.1016/j.cca.2023.117418"
